@@ -38,5 +38,3 @@ create_button.pack()
 
 # Run the main loop
 window.mainloop()
-
-#commnetss
