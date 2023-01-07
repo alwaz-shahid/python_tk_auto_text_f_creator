@@ -11,7 +11,7 @@ def create_text_file():
     file_path = filedialog.asksaveasfilename()
 
     # Open the file in write mode
-    with open(file_path, "w") as f:
+    with open(file_path+ ".txt", "w") as f:
         # Write the text to the file
         f.write(text_entry.get("1.0", "end-1c"))
 
